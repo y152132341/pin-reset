@@ -1,0 +1,22 @@
+{
+  "appium_url": "http://127.0.0.1:4723/wd/hub",
+  "appium_web_driver": {
+    "automationName": "Appium",
+    "appPackage": "com.remotefairy4",
+    "appActivity": "com.remotefairy.StartActivity",
+    "deviceName": "Galaxy S6 edge",
+    "platformName": "Android",
+    "platformVersion": "7.0",
+    "newCommandTimeout": "0",
+    "connectHardwareKeyboard": "true"
+  },
+  "ui_elements": {
+    "accept_ts_and_cs": "btn_privacy_acc",
+    "devices_search_box": "com.remotefairy4:id/edit_filter",
+    "tv_icon": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout[2]/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.widget.RelativeLayout[3]/android.widget.LinearLayout",
+    "first_panasonic_listed": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout[2]/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.RelativeLayout[1]",
+    "power_button": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.support.v4.view.ViewPager/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.FrameLayout/android.widget.TextView[1]",
+    "menu_button": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.support.v4.view.ViewPager/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.FrameLayout/android.widget.TextView[3]",
+    "numeric_pad": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.widget.RelativeLayout/android.support.v4.view.ViewPager/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.FrameLayout/android.widget.TextView[$KEY_NUMBER]"
+  }
+}
